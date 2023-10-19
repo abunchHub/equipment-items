@@ -97,22 +97,22 @@ body::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: "D67";
-  src: url(/fonts/CoreSansD67CnHeavy.otf);
+  src: url(/equipment-items/fonts/CoreSansD67CnHeavy.otf);
 }
 
 @font-face {
   font-family: "D65";
-  src: url(/fonts/CoreSansC-65Bold.ttf);
+  src: url(/equipment-items/fonts/CoreSansC-65Bold.ttf);
 }
 
 @font-face {
   font-family: "D45";
-  src: url(/fonts/CoreSansD45Medium.ttf);
+  src: url(/equipment-items/fonts/CoreSansD45Medium.ttf);
 }
 
 @font-face {
   font-family: "RobotoC";
-  src: url(/fonts/RobotoCondensed-Regular.ttf);
+  src: url(/equipment-items/fonts/RobotoCondensed-Regular.ttf);
 }
 
 
