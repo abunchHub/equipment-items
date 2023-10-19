@@ -9,14 +9,14 @@
 
 
 
-/*     -webkit-touch-callout: none;
+    -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
- */
-    cursor: url(/equipment-items/img/default.png), auto; 
+
+    cursor: url(/img/default.png), auto; 
     scroll-behavior: smooth;
   }
 
@@ -97,22 +97,22 @@ body::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: "D67";
-  src: url(/equipment-items/fonts/CoreSansD67CnHeavy.otf);
+  src: url(/fonts/CoreSansD67CnHeavy.otf);
 }
 
 @font-face {
   font-family: "D65";
-  src: url(/equipment-items/fonts/CoreSansC-65Bold.ttf);
+  src: url(/fonts/CoreSansC-65Bold.ttf);
 }
 
 @font-face {
   font-family: "D45";
-  src: url(/equipment-items/fonts/CoreSansD45Medium.ttf);
+  src: url(/fonts/CoreSansD45Medium.ttf);
 }
 
 @font-face {
   font-family: "RobotoC";
-  src: url(/equipment-items/fonts/RobotoCondensed-Regular.ttf);
+  src: url(/fonts/RobotoCondensed-Regular.ttf);
 }
 
 
@@ -1285,3 +1285,42 @@ color: #befe90;
 .he1ght_h {
   height: 20px;
 }
+
+.img-100 {
+  width: 100%;
+    border: 1px solid #1f6dad59;
+}
+
+
+/* Таблица */
+
+ table {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  width: 100%;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  font-family: D45;
+  color: #a1acb4;
+
+}
+
+table tr {
+  border: 1px solid #a1acb471;
+}
+
+table tr:first-child {
+  color: #d5b36b;
+  background: #00182c79;
+}
+
+table td {
+  padding: 10px 20px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #a1acb471;
+}
+
